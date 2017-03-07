@@ -1,0 +1,23 @@
+{
+  "name": "Switch",
+  "description": "Swtich different environment",
+  "version": "0.1",
+  "author": "regrex",
+  "homepage_url": "https://regrex.github.io/chrome-switch",
+  "options_page": "index.html",
+  "background": {
+    "scripts": ["dist/index.js"]
+  },
+  "permissions": [
+    "notifications",
+    "storage",
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

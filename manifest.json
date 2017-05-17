@@ -4,11 +4,17 @@
   "version": "0.1",
   "author": "regrex",
   "homepage_url": "https://regrex.github.io/chrome-switch",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
   "options_page": "index.html",
   "background": {
     "scripts": ["dist/index.js"]
   },
   "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
     "notifications",
     "storage",
     "tabs",
